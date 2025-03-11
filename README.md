@@ -98,6 +98,15 @@ To run the application in Docker:
 ```sh
 docker-compose up -d
 ```
+## CDN SETUP
+add in  .env file
+ASSET_URL=https://cdn.sample.com
+
+AWS_ACCESS_KEY_ID=your id
+AWS_SECRET_ACCESS_KEY= your key
+AWS_DEFAULT_REGION=us-east-1
+AWS_BUCKET=
+AWS_USE_PATH_STYLE_ENDPOINT=false
 
 ## Contributing
 Feel free to submit pull requests and open issues to improve the project.
